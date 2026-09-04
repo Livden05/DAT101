@@ -14,13 +14,15 @@ printOut(part1answer);
 
 printOut("--- Part 2 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
-const metersmm = 1000
-const centimetermm = 10
-const millimeters = 25*1000 & 34*1000
+const metersmm = 25*1000
+const centimetermm = 34*10
+const millimeters = metersmm + centimetermm
 const millprinch = 25.4
 const sumpart2 = millimeters/millprinch
-printOut (25 * metersmm);
-printOut (34 * centimetermm);
+
+printOut (metersmm);
+printOut (centimetermm);
+printOut (millimeters)
 printOut(sumpart2)
 
 
